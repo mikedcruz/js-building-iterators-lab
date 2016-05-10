@@ -2,7 +2,7 @@
 
 function myMap(arr, callback) {
   var outputArray = [];
-  for (var i=0; i<arr.length; i++) {
+  for (var i=0; i <arr.length; i++) {
     outputArray.push(callback(arr[i], i, arr));
   }
   return outputArray;
